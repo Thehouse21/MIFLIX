@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addon id="repository.video.miflix" name="repository.video.miflix" version="1.1.0" provider-name="Thehouse">
+	<extension point="xbmc.addon.repository" name="repository.video.miflix">
+		<info compressed="false">https://raw.githubusercontent.com/Thehouse21/MIFLIX/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Thehouse21/MIFLIX/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Thehouse21/MIFLIX/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Reoisitorio oficial addon miflix</summary>
+   		<description lang="en">Repositorio oficial de miflix 2017.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+

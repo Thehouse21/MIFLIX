@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.miflix 4.1"
+       name="[COLOR red]MI[/COLOR][COLOR yellow]FLIX [COLOR white]4.1[/COLOR]"
+       version="4.1"
+       provider-name="Thehouse">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="miflix.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por Thehouse</summary>
+    <description>Miflix 2017</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="repository.video.miflix" name="repository.video.miflix" version="1.1.0" provider-name="Thehouse">
+	<extension point="xbmc.addon.repository" name="repository.video.miflix">
+		<info compressed="false">https://raw.githubusercontent.com/Thehouse21/MIFLIX/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Thehouse21/MIFLIX/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Thehouse21/MIFLIX/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Reoisitorio oficial addon miflix</summary>
+   		<description lang="en">Repositorio oficial de miflix 2017.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
